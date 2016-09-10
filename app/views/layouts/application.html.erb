@@ -18,8 +18,8 @@
 	<%= csrf_meta_tags %>
 </head>
 <nav>
-  <div class="nav-wrapper">
-    <%= link_to "Out Run Depression", posts_path %>
+  <div class="container">
+    <%= link_to "Out Run Depression", root_path %>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
       <li><a href="sass.html">Sass</a></li>
       <li><a href="badges.html">Components</a></li>
@@ -28,8 +28,8 @@
   </div>
 </nav>
 <body>
-
+<div class="container">
 	<%= yield %>
-
+</div>
 </body>
 </html>
