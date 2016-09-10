@@ -1,5 +1,5 @@
 <h3><%= @post.title %></h3>
-<p><%= @post.content %></p>
+<p><%= markdown @post.content %></p>
 <p><%= @post.created_at.strftime('%A, %B, %d')%></p>
 <br>
 <br>
