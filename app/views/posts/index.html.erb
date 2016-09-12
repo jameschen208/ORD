@@ -4,3 +4,5 @@
 	<p><%= markdown post.content %></p>
 	<%= post.created_at.strftime("%A, %b, %d") %>
 <% end %>
+
+<%= will_paginate @posts %>
