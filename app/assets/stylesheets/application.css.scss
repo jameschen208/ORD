@@ -18,11 +18,11 @@
 @import 'pygments';
 @font-face {
   font-family: "Variane";
-  src: url('/assets/Variane_Script.ttf') format('truetype');
+  src: font-url('/assets/Variane_Script.ttf') format('truetype');
 }
 @font-face {
   font-family: "Bebas";
-  src: url('/assets/Bebas.ttf') format('truetype');
+  src: font-url('/assets/Bebas.ttf') format('truetype');
 }
 $primary-color: #5274CD;
 $primary-orange: #FF8B00;
