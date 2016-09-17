@@ -15,4 +15,15 @@
 //= require turbolinks
 //= require_tree .
 
-$('.materialize-textarea').trigger('autoresize');
+
+
+$(document).ready(function(){
+// PARALLAX
+  $('.parallax').parallax();
+  viewPortHeight = $(window).height() - 64;
+  $('.parallax-container').css({"height": +viewPortHeight+"px"})
+
+//TEXT AREA
+  $('.materialize-textarea').trigger('autoresize');
+
+});

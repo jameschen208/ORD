@@ -16,3 +16,39 @@
 
 
 @import 'pygments';
+@font-face {
+  font-family: "Variane";
+  src: url('fonts/Variane Script.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Bebas";
+  src: url('fonts/Bebas.ttf') format('truetype');
+}
+$primary-color: #5274CD;
+$primary-orange: #FF8B00;
+
+h1{
+	font-family: "Bebas";
+}
+
+nav, footer{
+	background-color: $primary-color !important;
+}
+nav a{
+	font-family: bebas;
+	font-size: 30px;
+	/*line-height:;*/
+}
+nav ul a{
+	font-family: "Variane";
+	font-size: 30px;
+}
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
