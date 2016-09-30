@@ -26,13 +26,19 @@
 }
 $primary-color: #5274CD;
 $primary-orange: #FF8B00;
+$primary-yellow: #EFC62E;
 
 h1{
 	font-family: "Bebas";
 }
-
+p, h5{
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
 nav, footer{
 	background-color: $primary-color !important;
+}
+h3 i{
+	color: $primary-color;
 }
 nav a{
 	font-family: bebas;
@@ -41,7 +47,10 @@ nav a{
 }
 nav ul a{
 	font-family: "Variane";
-	font-size: 30px;
+	font-size: 25px;
+}
+h2, h3{
+	font-family: "Variane";
 }
 body {
 	display: flex;
@@ -54,6 +63,10 @@ main {
 }
 #firstparallax{
 	text-align: center;
+	background-color:rgba(128, 128, 128, 0.1);
+}
+#firstparallax p{
+	color: $primary-yellow;
 }
 #brandlogo{
 	width:80%;
@@ -61,6 +74,12 @@ main {
 }
 #mission{
 	margin-top: 200px;
+}
+.object-fit{
+	Position: absolute;
+	Object-fit: cover;
+	Width: 100%;
+	Height: 100%;
 }
 .grey-op8{
 	background-color:rgba(192,192,192,.8);

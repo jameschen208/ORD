@@ -23,7 +23,7 @@ $(document).ready(function(){
   originalViewPortHeight = $(window).height();
   customViewPortHeight = originalViewPortHeight - 64;
   $('.parallax-container').css({"height": +customViewPortHeight+"px"})
-  $('#secondparallax').css({"height": +originalViewPortHeight+"px"})  
+  // $('#secondparallax').css({"height": +originalViewPortHeight+"px"})  
 
 //TEXT AREA
   $('.materialize-textarea').trigger('autoresize');
